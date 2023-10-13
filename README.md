@@ -8,7 +8,7 @@ Well, you'll need some additional chips. These are transistor arrays ULN2803 (lo
 
 See how to use RPI2040W for the task right here.
 
-Outputs from GPIO6 to GPIO13 are driving digit segments (a, b, c, d, e, f, g, dp), outputs from GPI14 to GPIO21 are driving individual digits (leftmost to rughtmost).
+Outputs from GPIO6 to GPIO13 are driving digit segments (a, b, c, d, e, f, g, dp), outputs from GPI14 to GPIO21 are driving individual digits (leftmost to rightmost).
 
 The program uses chained DMA to scan the digits and PIO to output the 16 bit halfwords driving both segments and scan line at the same time. It connects to WiFi and gets initial NTP time. Display updates are driven via periodic timer. 
 
