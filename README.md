@@ -4,7 +4,7 @@ No, you don't.
 
 Just use RP2040 PIO and some DMA for the same result. 
 
-Well, you'll need some additional chips. These are transistor arrays ULN2803 (lower driver) and TD62783 (upper driver) or similar. These drive the led matrix and provide the LED stripes sufficient current and voltage range up to 50 Volts. Or, you can just try low power high brightness digits and drive them directly from the RP2040. Remember, it can provide only 3.3 Volts and 4 milliAmps per port.
+Well, you'll need some additional chips. These are transistor arrays ULN2803 (lower driver) and TD62783 (upper driver) or similar. These drive the led matrix and provide the LED stripes sufficient current and voltage. Or, you can just try low power superbright digits and drive them directly from the RP2040. Remember, it can provide only 3.3 Volts and 4 milliAmps per port.
 
 See how to use RPI2040W for the task right here.
 
